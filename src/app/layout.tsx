@@ -7,7 +7,7 @@ const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfa
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  title: "Orphée Pâtisserie | Paris",
+  title: "Orphée Pâtisserie | Jordane & Kleo",
   description: "Artisan French Bakery",
 };
 
