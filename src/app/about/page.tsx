@@ -115,18 +115,15 @@ export default function AboutPage() {
 
       {/* --- HERO SECTION --- */}
 <header className="relative w-full h-screen flex flex-col items-center justify-center px-6 md:px-24 overflow-hidden">
-  {/* BACKGROUND VIDEO */}
+  {/* BACKGROUND IMAGE */}
   <div className="absolute inset-0 z-0 opacity-50 parallax-wrapper">
-    <video
-      autoPlay
-      muted
-      loop
-      playsInline
-      className="absolute inset-0 w-full h-full object-cover scale-125 pointer-events-none"
-    >
-      <source src="/about.mp4" type="video/mp4" />
-      Your browser does not support the video tag.
-    </video>
+    <Image 
+      src="/about.jpg" 
+      alt="Orphée Pâtisserie Atelier"
+      fill
+      className="object-cover scale-125"
+      priority
+    />
     {/* Gradient Overlay for Readability */}
     <div className="absolute inset-0 bg-gradient-to-b from-[#050505] via-transparent to-[#050505] z-10" />
   </div>
